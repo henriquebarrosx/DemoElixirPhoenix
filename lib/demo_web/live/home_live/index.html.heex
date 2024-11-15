@@ -1,0 +1,15 @@
+<div>
+  <div :for={news <- @news} class="bg-zinc-300 p-3">
+    <span>
+      <%= news.createdAt %>
+    </span>
+
+    <span>
+      <%= news.description %>
+    </span>
+
+    <span>
+      <%= news.source %>
+    </span>
+  </div>
+</div>
